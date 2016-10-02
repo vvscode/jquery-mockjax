@@ -3,6 +3,8 @@
 
 It pass at least one year till last activity at original repo. There are two PR's which add needed functionality, but thus they are outdated and were not updated long time - I make fork and patch myself. 
 
+[https://github.com/vvscode/code-notes/blob/master/socket-mocks/ajax-mock.js](How we use it on our projects to mock test data dymanicly )
+
 Changes:
 - mockjaxHandler can get access to original settings via `requestSettings._origSettings` - that's allow to override callbacks if we need
 - `onAfter`-hooks now receive all params from handling callbacks ( see source code and PR's at original repo )
