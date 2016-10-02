@@ -1,9 +1,9 @@
 # Patch motivation
-[https://github.com/vvscode/jquery-mockjax/compare/5c971d1f0db3b5e385bafbd3bd205ae6bccf81f0...HEAD](Diff for All changes with last official version)
+[Diff for All changes with last official version](https://github.com/vvscode/jquery-mockjax/compare/5c971d1f0db3b5e385bafbd3bd205ae6bccf81f0...HEAD)
 
 It pass at least one year till last activity at original repo. There are two PR's which add needed functionality, but thus they are outdated and were not updated long time - I make fork and patch myself. 
 
-[https://github.com/vvscode/code-notes/blob/master/socket-mocks/ajax-mock.js](How we use it on our projects to mock test data dymanicly )
+[How we use it on our projects to mock test data dymanicly](https://github.com/vvscode/code-notes/blob/master/socket-mocks/ajax-mock.js)
 
 Changes:
 - mockjaxHandler can get access to original settings via `requestSettings._origSettings` - that's allow to override callbacks if we need
